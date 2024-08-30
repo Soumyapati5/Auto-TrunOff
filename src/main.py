@@ -26,6 +26,7 @@ def signal_handler(sig, frame):
     print('Terminating the service...')
     sys.exit(0)
 
+
 def main():
     print("Starting WinAdminService...")
 
